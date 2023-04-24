@@ -50,5 +50,8 @@
       "preset": "emotion",
       "includeClassNames": true
     }
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
