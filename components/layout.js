@@ -11,8 +11,8 @@ export default function Layout({ children }) {
         <div>
             <Head>
                 <link rel="icon" href="img/thesjlogo.svg" />
-                <meta charset="utf-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta charSet="utf-8" />
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
