@@ -182,7 +182,7 @@ export default function Us() {
                                 <div className="flex flex-wrap lg:justify-end">
                                     <a
                                         href="/projects"
-                                        className="hover:text-primary my-1 mr-4 inline-block rounded bg-white bgOpacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bgOpacity-25 md:px-9 lg:px-6 xl:px-9"
+                                        className="hover:text-primary my-1 mr-4 inline-block rounded bg-custom-medium-blue bgOpacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bgOpacity-25 md:px-9 lg:px-6 xl:px-9"
                                     >
                                         Our Projects
                                     </a>

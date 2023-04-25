@@ -28,7 +28,7 @@ export default function Video() {
           {playVideo && (
             <iframe
               src="/img/video_final.mp4"
-              title="YouTube video player"
+              title="video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>

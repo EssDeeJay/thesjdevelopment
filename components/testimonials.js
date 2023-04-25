@@ -11,7 +11,7 @@ export default function Testimonials() {
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 px-4 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               We have worked with them in the past and we are continuing as they are doing the  <Mark>Fabulous</Mark>
               Job that makes us satisfied. They are time managing, understands the priorities and replies very quickly to your question. I will recommend them on any of your website projects.
@@ -25,7 +25,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 px-4 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               They did a very good job on our <Mark>Shopify</Mark> Store to make it look more lively and that helped us bring 
               good sale and our conversion went way above then the before. Also, need to mention, their work on site speed was flawless as they eliminated the bugs that was crashing our site.
@@ -39,7 +39,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 sm:px-14 px-4 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
               They are quick and reliable as they work on their timelines and deliver<Mark>the best</Mark> of your project. We feel like we have our own the employees working with us on the project. They gave good ideas and their research is also excellent.
             </p>

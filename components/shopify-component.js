@@ -115,7 +115,7 @@ export default function ShopifyComponent() {
                         loading="eager"
                         placeholder="blur"
                     />
-                            <div className="mt-4 md:mt-0">
+                            <div className="mt-4 md:mt-0 p-2">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-custom-blue dark:text-white">Inventory Management</h2>
                                 <p className="mb-6 font-normal text-gray-600 md:text-lg dark:text-gray-100">Inventory management is incredibly critical for most ecommerce businesses and often a nightmare to manage consuming hours and hours of time. Shopify offers convenient & accurate inventory management feature that saves your time and help you focus on other priorities. With Shopify you can track inventory in real-time with in-stock product counts and automatically stop selling products when inventory runs out.</p>
                             </div>
@@ -151,7 +151,7 @@ export default function ShopifyComponent() {
                         loading="lazy"
                         placeholder="blur"
                     />
-                            <div className="mt-4 md:mt-0">
+                            <div className="mt-4 md:mt-0 p-2">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-custom-blue dark:text-white">Seamless Checkout Process</h2>
                                 <p className="mb-6 font-normal text-gray-600 md:text-lg dark:text-gray-100">Every Shopify store has a seamless checkout process which is fully integrated and available in 50+ languages thus saving customers from re-routing to payment gateways. It offers secure payment services with more than 70 payment gateways to choose from, making it easy to process online payments from all over the world.</p>
                             </div>
@@ -187,7 +187,7 @@ export default function ShopifyComponent() {
                         loading="eager"
                         placeholder="blur"
                     />
-                            <div className="mt-4 md:mt-0">
+                            <div className="mt-4 md:mt-0 p-2">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-custom-blue dark:text-white">Analytics</h2>
                                 <p className="mb-6 font-normal text-gray-600 md:text-lg dark:text-gray-100">Enhance your store for search engines by knowing customer’s behavior through analytics. Shopify offer smooth integration of store with various analytics platforms including Google Analytics. It offers custom dashboard with easy to view orders, sales section for the business along with export reports option.</p>
                             </div>
@@ -223,7 +223,7 @@ export default function ShopifyComponent() {
                         loading="lazy"
                         placeholder="blur"
                     />
-                            <div className="mt-4 md:mt-0">
+                            <div className="mt-4 md:mt-0 p-2">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-custom-blue dark:text-white">Customization of Online Store</h2>
                                 <p className="mb-6 font-normal text-gray-600 md:text-lg dark:text-gray-100">Shopify offers fully customizable look and feel for every store. It has settings that are easy to customize according to brands and gives Shopify developers full access to HTML & CSS, making it easy to customize every aspect of your website.</p>
                             </div>
@@ -232,7 +232,7 @@ export default function ShopifyComponent() {
 
             <section className="bg-white dark:bg-trueGray-900">
                 <div className="gap-8 items-center py-8 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 md:px-4">
-                            <div className="mt-4 md:mt-0">
+                            <div className="mt-4 md:mt-0 p-2">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-custom-blue dark:text-white">Search Engine Optimized</h2>
                                 <p className="mb-6 font-normal text-gray-600 md:text-lg dark:text-gray-100">Good, search engine visibility is integral to e-commerce success. Shopify out of the box features combined with various plugins can help boost your organic traffic via search engines..</p>
                             </div>
@@ -269,7 +269,7 @@ export default function ShopifyComponent() {
                                 <div className="flex flex-wrap lg:justify-end">
                                     <a
                                         href="/about"
-                                        className="hover:text-primary my-1 mr-4 inline-block rounded bg-white bgOpacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bgOpacity-25 md:px-9 lg:px-6 xl:px-9"
+                                        className="hover:text-primary my-1 mr-4 inline-block rounded bg-custom-medium-blue bgOpacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bgOpacity-25 md:px-9 lg:px-6 xl:px-9"
                                     >
                                      How it Works
                                     </a>
