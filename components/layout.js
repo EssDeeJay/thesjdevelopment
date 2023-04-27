@@ -25,6 +25,7 @@ export default function Layout({ children }) {
                     gtag('config', 'G-YFP58JRKF1');
                 
                 `}} />
+                <meta name="facebook-domain-verification" content="4ue4qhjc6wkrip7dndi25xqm4kcz1n" />
             </Head>
             <Announcement />
             <Navbar />
