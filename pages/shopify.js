@@ -14,9 +14,9 @@ export default function Shopify() {
            />
           <meta
               property="og:description"
-              content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites."
+              content="Looking to launch your online store? Choose Shopify, the leading eCommerce platform trusted by businesses worldwide. Create a seamless shopping experience, boost sales, and enhance your online presence with Shopify's powerful features and user-friendly interface"
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/shopify" />
           <meta
              property="og:site_name"
              content="Shopify - The SJ Development | Shopify Experts"
@@ -26,9 +26,10 @@ export default function Shopify() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites."
+            content="Looking to launch your online store? Choose Shopify, the leading eCommerce platform trusted by businesses worldwide. Create a seamless shopping experience, boost sales, and enhance your online presence with Shopify's powerful features and user-friendly interface"
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/shopify"></link>
       </Head>
       <Container>
           <ShopifyComponent />

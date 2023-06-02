@@ -14,9 +14,9 @@ export default function Projects() {
            />
           <meta
               property="og:description"
-              content="Read Our Project case studies from the most famous shopify stores around the world. We have done from micro shopify tasks to major headless shopify development."
+              content="Explore our project case studies from renowned Shopify stores worldwide. From micro tasks to headless Shopify development, discover our expertise. Learn from our success stories today."
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/projects" />
           <meta
              property="og:site_name"
              content="Projects - The SJ Development | Shopify Experts"
@@ -26,9 +26,10 @@ export default function Projects() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="Read Our Project case studies from the most famous shopify stores around the world. We have done from micro shopify tasks to major headless shopify development."
+            content="Explore our project case studies from renowned Shopify stores worldwide. From micro tasks to headless Shopify development, discover our expertise. Learn from our success stories today."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/projects"></link>
       </Head>
       <Container>
           <OurProjects/>

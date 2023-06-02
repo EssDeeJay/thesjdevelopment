@@ -14,9 +14,9 @@ export default function Services() {
            />
           <meta
               property="og:description"
-              content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites."
+              content="As certified Shopify and Shopify Plus partners, we bring vast experience in developing Shopify websites and apps. Our expertise extends to custom static website development. Trust our proven track record and exceptional solutions."
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/services" />
           <meta
              property="og:site_name"
              content="Services - The SJ Development | Shopify Experts"
@@ -26,9 +26,10 @@ export default function Services() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites."
+            content="As certified Shopify and Shopify Plus partners, we bring vast experience in developing Shopify websites and apps. Our expertise extends to custom static website development. Trust our proven track record and exceptional solutions."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/services"></link>
       </Head>
       <Container>
          <ServicesFeatures/>

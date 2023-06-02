@@ -4,13 +4,12 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import PopupWidget from "../components/popupWidget";
 
-export const siteTitle = 'The SJ Development | Shopify Experts'
+export const siteTitle = 'The SJ Development | Professional Shopify Experts'
 
 export default function Layout({ children }) {
     return (
         <div>
             <Head>
-                <link rel="icon" href="img/thesjlogo.svg" />
                 <meta charSet="utf-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta property="og:locale" content="en_US" />

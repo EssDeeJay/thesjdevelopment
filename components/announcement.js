@@ -9,12 +9,12 @@ export default function Announcement() {
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="pr-16 sm:text-center sm:px-16">
           <p className="font-medium text-white dark:text-cstom-blue">
-            <span className="md:hidden">We announced The SJ Development!</span>
-            <span className="hidden md:inline">Welcome! We're excited to announce the launch of SJ development.</span>
+            <span className="md:hidden">Start a free trial and enjoy 3 months of Shopify for $1/month on select plans</span>
+            <span className="hidden md:inline">Start a free trial and enjoy 3 months of Shopify for $1/month on select plans</span>
             <span className="block sm:ml-2 sm:inline-block">
-              <a href="/about" className="text-white font-bold underline">
+              <a href="https://shopify.pxf.io/c/4211402/1101159/13624" className="text-white font-bold underline">
                 {' '}
-                About Us <span aria-hidden="true">&rarr;</span>
+                Sign up now <span aria-hidden="true">&rarr;</span>
               </a>
             </span>
           </p>

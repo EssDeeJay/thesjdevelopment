@@ -83,7 +83,7 @@ export default function Step(){
                         <Image className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
                             src={image1}
                             alt="step"
-                        Width="4460"
+                        width="4460"
                             height="2973"
                             loading="lazy"
                             placeholder="blur" />

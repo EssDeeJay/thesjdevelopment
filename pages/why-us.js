@@ -14,7 +14,7 @@ export default function WhyUs() {
            />
           <meta
               property="og:description"
-              content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites.Your business employees just a click away."
+              content="Choose us as your Shopify experts for exceptional results. With our extensive experience, certified expertise, and tailored solutions, we deliver top-notch Shopify development. Trust us to elevate your online presence and maximize conversions."
            />
           <meta property="og:url" content="www.thesjdevelopment.com" />
           <meta
@@ -26,9 +26,10 @@ export default function WhyUs() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="We are certified Shopify and Shopify plus partners who have vast experience developing shopify websites and apps. We also develop custom static websites.Your business employees just a click away."
+            content="Choose us as your Shopify experts for exceptional results. With our extensive experience, certified expertise, and tailored solutions, we deliver top-notch Shopify development. Trust us to elevate your online presence and maximize conversions."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/why-us"></link>
       </Head>
       <Container>
           <Us/>

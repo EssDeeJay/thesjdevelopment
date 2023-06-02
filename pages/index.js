@@ -9,36 +9,40 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import Props from "../components/props";
+import { getSortedBlogsData } from "../lib/blogs";
+import IndexPosts from "../components/indexBlogs";
 
 
-export default function Home() {
+export default function Home({allBlogsData}) {
   return (
     <Layout>
       <Head>
         <title>{siteTitle}</title>
           <meta
              property="og:title"
-             content="The SJ Development | Shopify Experts"
+             content="The SJ Development | Professional Shopify Experts"
            />
           <meta
               property="og:description"
-              content="Certified Shopify Experts Based in Canada, We are Professional Web Developers, Shopify Partners and We have in house Web Development team that makes a difference by creating professional websites."
+              content="Boost online presence with certified Shopify experts. Our web developers create impactful websites. Contact us for top-notch Shopify solutions and improved SEO."
            />
           <meta property="og:url" content="www.thesjdevelopment.com" />
           <meta
              property="og:site_name"
-             content="The SJ Development | Shopify Experts"
+             content="The SJ Development | Professional Shopify Experts"
           />
           <meta property="article:publisher" content="www.thesjdevelopment.com" />
           <meta property="og:image" content="/img/thesjlogo.svg" />
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="Certified Shopify Website Experts Based in Canada, We are Professional Web Developers, Shopify Partners and We have in house Web Development team that makes a difference by creating professional websites."
+            content="Boost online presence with certified Shopify experts. Our web developers create impactful websites. Contact us for top-notch Shopify solutions and improved SEO."
           />
-            <meta name="robots" content="index, follow" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://www.thesjdevelopment.com/"></link>
       </Head>
       <Hero />
+      <IndexPosts allBlogsData={allBlogsData}/>
       <SectionTitle
         pretitle="WE BREATHE SHOPIFY"
         title="One Stop Shopify Solutions">
@@ -73,4 +77,14 @@ export default function Home() {
       <Cta />
     </Layout>
   );
+}
+
+export async function getStaticProps(){
+  const allBlogsData = getSortedBlogsData();
+
+  return {
+      props: {
+          allBlogsData,
+      }
+  }
 }

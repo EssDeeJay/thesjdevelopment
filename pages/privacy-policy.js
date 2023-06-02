@@ -14,9 +14,9 @@ export default function Shopify() {
            />
           <meta
               property="og:description"
-              content="privacy policy of the sj development website, as we value the privacy of our website users."
+              content="At The SJ Development, we prioritize user privacy. Read our website's privacy policy to understand how we safeguard your information. Trust in our commitment to privacy and transparency."
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/privacy-policy" />
           <meta
              property="og:site_name"
              content="Privacy Policy - The SJ Development | Shopify Experts"
@@ -26,9 +26,10 @@ export default function Shopify() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="privacy policy of the sj development website, as we value the privacy of our website users."
+            content="At The SJ Development, we prioritize user privacy. Read our website's privacy policy to understand how we safeguard your information. Trust in our commitment to privacy and transparency."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/privacy-policy"></link>
       </Head>
       <Container>
          <Privacy />

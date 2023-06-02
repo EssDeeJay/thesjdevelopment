@@ -17,7 +17,7 @@ export default function Hero() {
               Take Your Shopify Store to the NEXT Level
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              We help you transform your shopify store to new heights by helping you build your brand by creating the website that makes a difference.
+              We help you transform your Shopify store to new heights by helping you build your brand by creating a website that makes a difference.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">

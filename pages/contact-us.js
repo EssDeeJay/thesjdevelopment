@@ -15,9 +15,9 @@ export default function About() {
            />
           <meta
               property="og:description"
-              content="Contact us if you are looking for shopify experts or looking to make custom shopify themes or just looking to fix your shopify store website."
+              content="Looking for Shopify experts? Need custom Shopify themes or fixes for your store website? Contact us for expert assistance and solutions. Boost your Shopify performance today."
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/contact" />
           <meta
              property="og:site_name"
              content=" Contact Us - The SJ Development | Shopify Experts"
@@ -27,9 +27,10 @@ export default function About() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="Contact us if you are looking for shopify experts or looking to make custom shopify themes or just looking to fix your shopify store website."
+            content="Looking for Shopify experts? Need custom Shopify themes or fixes for your store website? Contact us for expert assistance and solutions. Boost your Shopify performance today."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/contact-us"></link>
       </Head>
       <Container>
            <ContactHero />

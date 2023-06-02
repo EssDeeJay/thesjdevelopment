@@ -14,9 +14,9 @@ export default function Shopify() {
            />
           <meta
               property="og:description"
-              content="Terms and Conditions of the sj development website."
+              content="Review the Terms and Conditions of The SJ Development website, designed to ensure a fair and transparent experience. Stay informed about our policies and commitments for your peace of mind."
            />
-          <meta property="og:url" content="www.thesjdevelopment.com" />
+          <meta property="og:url" content="www.thesjdevelopment.com/terms-and-conditions" />
           <meta
              property="og:site_name"
              content="Terms and Conditions - The SJ Development | Shopify Experts"
@@ -26,9 +26,10 @@ export default function Shopify() {
           <meta name="author" content="The SJ Development" />
           <meta
             name="description"
-            content="Terms and Conditions of the sj development website."
+            content="Review the Terms and Conditions of The SJ Development website, designed to ensure a fair and transparent experience. Stay informed about our policies and commitments for your peace of mind."
           />
             <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://www.thesjdevelopment.com/terms-and-conditions"></link>
       </Head>
       <Container>
          <Terms/>

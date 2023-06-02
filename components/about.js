@@ -46,9 +46,6 @@ export default function AboutComponent(){
           <Step/>
           <Team />
         </Container>
-      
-      
-    
     </>
        
     );
